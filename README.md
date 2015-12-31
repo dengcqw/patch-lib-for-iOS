@@ -11,3 +11,10 @@ Compile patch tool to iOS static lib
 
 ## thanks
 I refer to this [hint](http://stackoverflow.com/a/19885606) to succeed compiling patch. Thanks.
+
+## ToDo
+remove patch useless function to reduce lib size
+
+## Test
+see my repo [Reactive-Native-Demo](https://github.com/dengcqw/Reactive-Native-Demo)
+run it directly. enjoy it!
