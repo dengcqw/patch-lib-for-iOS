@@ -113,15 +113,6 @@ char const program_name[] = "patch";
 
 int patch_main PARAMS ((int, char **));
 
-int applyPatch(char *distFile, char *patchFile) {
-    int argc = 3;
-    char* argv[3];
-    argv[0] = "patch";
-    argv[1] = distFile;
-    argv[2] = patchFile;
-    return patch_main(argc, argv);
-}
-
 int
 patch_main (int argc, char **argv)
 {

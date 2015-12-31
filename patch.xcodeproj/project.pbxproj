@@ -315,7 +315,7 @@
 					"$(inherited)",
 					HAVE_CONFIG_H,
 				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/patch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -325,7 +325,7 @@
 		AAD8D0671C3502CC0056C1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/patch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -351,6 +351,7 @@
 				AAD8D0671C3502CC0056C1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
