@@ -8,4 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-BOOL applyPatch(NSString *distFile, NSString *patchFile);
+/*!
+ @brief apply a diff file to a target file
+ 
+ @param patchFile file created by `diff -u `
+ @param options   patch options split by space like  @[@"-p", @"-r"] 
+ 
+ @return success or fail
+ */
+BOOL applyPatch(NSString *targetFile, NSString *patchFile, NSArray<NSString *> *options);
