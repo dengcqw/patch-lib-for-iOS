@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface patch : NSObject
-
+//int applyPatch(char *distFile, char *patchFile);
+- (BOOL)applyPatch:(NSString *)patchFile to:(NSString *)distFile; 
 @end

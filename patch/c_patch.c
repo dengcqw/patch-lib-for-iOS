@@ -112,14 +112,10 @@ char const program_name[] = "patch";
 /* Apply a set of diffs as appropriate. */
 
 int patch_main PARAMS ((int, char **));
-int main PARAMS ((int, char **));
-int main (int argc, char **argv) {
-    return 0;
-}
 
 int applyPatch(char *distFile, char *patchFile) {
     int argc = 3;
-    char* argv[2];
+    char* argv[3];
     argv[0] = "patch";
     argv[1] = distFile;
     argv[2] = patchFile;

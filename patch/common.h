@@ -150,8 +150,8 @@
 #define strnEQ(s1,s2,l) (!strncmp(s1, s2, l))
 
 /* typedefs */
-
-typedef int bool;			/* must promote to itself */
+#include <stdbool.h>
+//typedef int bool;			/* must promote to itself */
 typedef off_t LINENUM;			/* must be signed */
 
 /* globals */

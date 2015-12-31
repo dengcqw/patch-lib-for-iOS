@@ -33,6 +33,7 @@
 
 #define INITHUNKMAX 125			/* initial dynamic allocation size */
 
+#define ed_PROGRAM "/bin/ed"
 /* Patch (diff listing) abstract type. */
 
 static FILE *pfp;			/* patch file pointer */

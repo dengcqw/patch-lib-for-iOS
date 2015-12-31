@@ -22,6 +22,8 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <errno.h>
+#include <sys/unistd.h>
+#include <sys/wait.h>
 #ifndef errno
 extern int errno;
 #endif

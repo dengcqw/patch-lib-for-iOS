@@ -16,7 +16,7 @@ bool there_is_another_patch PARAMS ((void));
 char *pfetch PARAMS ((LINENUM));
 char pch_char PARAMS ((LINENUM));
 int another_hunk PARAMS ((enum diff, int));
-int pch_says_nonexistent PARAMS ((int));
+bool pch_says_nonexistent PARAMS ((int));
 size_t pch_line_len PARAMS ((LINENUM));
 time_t pch_timestamp PARAMS ((int));
 void do_ed_script PARAMS ((FILE *));
