@@ -34,6 +34,8 @@
 #include <version.h>
 #include <xalloc.h>
 
+#define exit(arg) do{}while(0)
+
 #if HAVE_UTIME_H
 # include <utime.h>
 #endif
@@ -1338,12 +1340,12 @@ make_temp (int letter)
 void
 fatal_exit (int sig)
 {
-  cleanup ();
-
-  if (sig)
-    exit_with_signal (sig);
-
-  exit (2);
+//  cleanup ();
+//
+//  if (sig)
+//    exit_with_signal (sig);
+//
+//  exit (2);
 }
 
 static void
