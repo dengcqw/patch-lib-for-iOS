@@ -33,6 +33,8 @@
 
 #define INITHUNKMAX 125			/* initial dynamic allocation size */
 
+// add this definition to avoid compile error
+// ed function may not working in app
 #define ed_PROGRAM "/bin/ed"
 /* Patch (diff listing) abstract type. */
 
